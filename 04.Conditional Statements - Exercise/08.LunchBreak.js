@@ -16,9 +16,6 @@ function lunchBreak(showName, episodeDuration, breakDuration) {
     }
 }
 
-// Тестови примери:
-console.log("Example 1:");
-lunchBreak("Game of Thrones", 60, 96); // Очакван резултат: You have enough time to watch Game of Thrones and left with 0 minutes free time.
 
-console.log("Example 2:");
+lunchBreak("Game of Thrones", 60, 96); // Очакван резултат: You have enough time to watch Game of Thrones and left with 0 minutes free time.
 lunchBreak("Teen Wolf", 48, 60); // Очакван резултат: You don't have enough time to watch Teen Wolf, you need 11 more minutes.
