@@ -9,10 +9,17 @@ function toyShop(tripPrice, puzzles, dolls, bears, minions, trucks) {
     let totalPrice = (puzzles * puzzlePrice) + (dolls * dollPrice) + (bears * bearPrice) + (minions * minionPrice) + (trucks * truckPrice);
 
     if (totalToys >= 50) {
+<<<<<<< HEAD
         totalPrice *= 0.75;
     }
 
     totalPrice *= 0.90;
+=======
+        totalPrice *= 0.75; // Apply 25% discount
+    }
+
+    totalPrice *= 0.90; // Deduct 10% for rent
+>>>>>>> 156cb405947ec560549fa1cbd1759f3375b085c3
 
     let difference = totalPrice - tripPrice;
 

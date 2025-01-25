@@ -21,4 +21,9 @@ function calculateBonusScore(points) {
     console.log((points + bonus));
 }
 
+<<<<<<< HEAD
 calculateBonusScore(175);
+=======
+// Example usage:
+calculateBonusScore(175); // Change the number to test with different inputs
+>>>>>>> 156cb405947ec560549fa1cbd1759f3375b085c3
